@@ -14,6 +14,30 @@
 <body>
 	<h1>/meme\</h1>
     <br>
+    <img src="https://avatars.mds.yandex.net/i?id=ec015183c7c7d3f8e5dfd52966b0795b-2427501-images-thumbs&n=13" height="500px">
+    <img src="https://avatars.mds.yandex.net/i?id=53a0646f659be9c36b2269e582f2edef_l-3580534-images-thumbs&n=13" height="500px">
+    <img src="https://avatars.mds.yandex.net/i?id=19aa83484bae3ab62c06f50ec507dfd8-4119111-images-thumbs&n=13" height="500px">
     <img src="https://avatars.mds.yandex.net/i?id=29d6485a83b95b7f0fc856e7c25ca28b-5657852-images-thumbs&n=13" height="500px">
+    <script>
+        function slideLoaded(img){
+            var $img = $(img),
+                $slideWrapper = $img.parent(),
+                total = $slideWrapper.find('img').length,
+                percentLoaded = null;
+        
+            $img.addClass('loaded');
+        
+            var loaded = $slideWrapper.find('.loaded').length;
+        
+            if(loaded == total){
+                percentLoaded = 100;
+                // INSTANTIATE PLUGIN
+                $slideWrapper.easyFader();
+            } else {
+                // TRACK PROGRESS
+                percentLoaded = loaded/total * 100;
+            };
+        };
+    </script>
 </body>
 </html>
