@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a:link {
+    color: #ffffff; /* Цвет ссылок */
+}
+
+body{
+    background-image: url("http://1bvfq4fbru.s3-website-us-west-2.amazonaws.com/assets/star-bkg.gif");
+    background-size:1000px;
+    text-align: center;
+    font-size: 40px;
+    color: #ffffff;
+}
+/* https://im.wampi.ru/2022/09/05/Quepal.png */
