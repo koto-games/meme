@@ -6,6 +6,12 @@
 a:link {
     color: #ffffff; /* Цвет ссылок */
 }
+a:visited {
+    color: #ffffff;
+}
+a:active {
+    color: #ff0000; /* Цвет активной ссылки */ 
+}
 
 body{
     background-image: url("https://www.resolventa.ru/ris/56.gif");
