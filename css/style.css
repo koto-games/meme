@@ -25,4 +25,17 @@ body{
     font-size: 40px;
     color: #ffffff;
 }
+
+
+
+#tr {
+    text-align: center;
+    position: relative;
+    height: 300px;
+    /* color: #000000; */
+    background-color: #211e1e;
+}
+
+
+
 /*  */
